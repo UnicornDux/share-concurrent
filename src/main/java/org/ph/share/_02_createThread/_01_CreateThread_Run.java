@@ -1,4 +1,4 @@
-package org.ph.share._02_createThread;
+package org.ph.share._02_CreateThread;
 
 
 public class _01_CreateThread_Run {
