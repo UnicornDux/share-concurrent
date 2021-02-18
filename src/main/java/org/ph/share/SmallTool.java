@@ -15,7 +15,6 @@ public class SmallTool {
         }
     }
 
-
     public static void printTimeAndThread(String tag) {
         String result = new StringJoiner("\t|\t")
                 .add(String.valueOf(System.currentTimeMillis()))
