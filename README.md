@@ -8,3 +8,5 @@
 【04集·CompletableFuture进阶】https://www.bilibili.com/video/BV1ui4y1T7xf/
 <br>
 【05集·CompletableFuture扩展】https://www.bilibili.com/video/BV1wZ4y1A7PK/
+<br>
+【06集·这? 线程池 ? !】https://www.bilibili.com/video/BV1vV411E75R/
