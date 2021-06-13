@@ -10,3 +10,6 @@
 【05集·CompletableFuture扩展】https://www.bilibili.com/video/BV1wZ4y1A7PK/
 <br>
 【06集·这? 线程池 ? !】https://www.bilibili.com/video/BV1vV411E75R/
+<br>
+【07集·CompletableFuture 性能】https://www.bilibili.com/video/BV1e44y1677h/
+<br>
