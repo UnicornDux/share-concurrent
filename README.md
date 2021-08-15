@@ -13,3 +13,5 @@
 <br>
 【07集·CompletableFuture 性能】https://www.bilibili.com/video/BV1e44y1677h/
 <br>
+【08集·线程中断】https://www.bilibili.com/video/BV1CM4y157vc/
+<br>
