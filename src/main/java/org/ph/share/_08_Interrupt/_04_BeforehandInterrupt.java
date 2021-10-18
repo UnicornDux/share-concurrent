@@ -2,7 +2,7 @@ package org.ph.share._08_Interrupt;
 
 import org.ph.share.SmallTool;
 
-public class _04_beforehandInterrupt {
+public class _04_BeforehandInterrupt {
     public static void main(String[] args) {
 
         Thread.currentThread().interrupt();

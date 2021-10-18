@@ -2,11 +2,6 @@ package org.ph.share._07_CompletableFuture_performance;
 
 import org.ph.share.SmallTool;
 
-import java.nio.charset.StandardCharsets;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.ArrayList;
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 /**

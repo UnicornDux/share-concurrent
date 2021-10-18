@@ -2,7 +2,7 @@ package org.ph.share._08_Interrupt;
 
 import org.ph.share.SmallTool;
 
-public class _03_interrupt {
+public class _03_Interrupt {
     public static void main(String[] args) {
         Thread carOne = new Thread(() -> {
             long startMills = System.currentTimeMillis();
