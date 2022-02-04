@@ -15,5 +15,7 @@
 <br>
 【08集·线程中断】https://www.bilibili.com/video/BV1CM4y157vc/
 <br>
-【08集·阻塞队列 引入】https://www.bilibili.com/video/BV1AU4y1c7Vy/
+【09集·阻塞队列 引入】https://www.bilibili.com/video/BV1AU4y1c7Vy/
+<br>
+【10集·阻塞队列 基础】https://www.bilibili.com/video/BV1Gq4y1c7j5/
 <br>
