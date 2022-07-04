@@ -19,3 +19,5 @@
 <br>
 【10集·阻塞队列 基础】https://www.bilibili.com/video/BV1Gq4y1c7j5/
 <br>
+【11集·阻塞队列 都有谁?(一)】https://www.bilibili.com/video/BV1w3411A7Rq/
+<br>
