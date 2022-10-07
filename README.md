@@ -21,3 +21,5 @@
 <br>
 【11集·阻塞队列 都有谁?(一)】https://www.bilibili.com/video/BV1w3411A7Rq/
 <br>
+【12集·阻塞队列 都有谁?(二)】https://www.bilibili.com/video/BV1g14y1h7Xk/
+<br>
