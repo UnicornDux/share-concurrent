@@ -2,7 +2,8 @@ package org.ph.share._02_CreateThread;
 
 import java.util.concurrent.TimeUnit;
 
-public class ThreadStateTest {
+public class _05_ThreadStateTest {
+
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread();
         System.out.println("1- " + thread.getState());

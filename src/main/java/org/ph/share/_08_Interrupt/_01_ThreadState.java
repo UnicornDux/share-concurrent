@@ -7,16 +7,18 @@ import java.util.concurrent.TimeUnit;
 public class _01_ThreadState {
     public static void main(String[] args) {
         Thread thread = new Thread();
-        System.out.println("1- " + thread.getState());
+        Thread.currentThread().interrupt();
+        SmallTool.printTimeAndThread("1- " + thread.getState());
         thread.start();
-        System.out.println("2- " + thread.getState());
+        SmallTool.printTimeAndThread("2- " + thread.getState());
 
         try {
             TimeUnit.MILLISECONDS.sleep(1);
         } catch (InterruptedException e) {
+            SmallTool.printTimeAndThread("3-" + Thread.currentThread().getState());
             SmallTool.printTimeAndThread("产生中断" + e.getMessage());
         }
 
-        System.out.println("3- " + thread.getState());
+        System.out.println("4- " + thread.getState());
     }
 }
