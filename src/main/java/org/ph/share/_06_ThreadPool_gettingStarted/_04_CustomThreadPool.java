@@ -30,7 +30,7 @@ public class _04_CustomThreadPool {
         );
         try {
             for (int i = 0; i < 100; i++) {
-                Mytask task = new Mytask(i);
+                MyTask task = new MyTask(i);
                 threadPool.execute(task);
             }
         } catch (Exception e){
@@ -40,9 +40,9 @@ public class _04_CustomThreadPool {
         }
     }
 }
-class Mytask implements Runnable {
-    int i = 0;
-    public Mytask(int i) {
+class MyTask implements Runnable {
+    private int i = 0;
+    public MyTask(int i) {
         this.i = i;
     }
     @Override

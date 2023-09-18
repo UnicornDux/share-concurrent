@@ -13,7 +13,6 @@ public class _01_ThreadPool {
         newTenThousandThread();
         // 使用线程池执行 10 任务
         doTenThousandTaskWithThreadPool();
-
     }
 
     public static void newTenThousandThread() throws InterruptedException {
