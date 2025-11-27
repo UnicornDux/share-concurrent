@@ -25,7 +25,6 @@ public class _03_thenCombine {
 
         SmallTool.printTimeAndThread("小白在打王者");
         SmallTool.printTimeAndThread(String.format("%s ,小白开吃", cf1.join()));
-
     }
 
 
