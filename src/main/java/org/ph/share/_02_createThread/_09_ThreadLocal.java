@@ -1,4 +1,4 @@
-package org.ph.share._02_CreateThread;
+package org.ph.share._02_createThread;
 
 import org.ph.share.model.User;
 
@@ -9,11 +9,9 @@ public class _09_ThreadLocal {
 
     static ThreadLocal<User> threadLocal = new ThreadLocal<>();
     public static void main(String[] args) {
-        // threadLocalUsage();
-        threadLocalOom();
+        threadLocalUsage();
+        // threadLocalOom();
     }
-
-
 
     // threadLocal 中的 key 是弱引用，但是 value 是强引用，在垃圾回收的时候，由于线程池内的线程
     // 不会被回收，因此 value 这样的强引用也不会被垃圾回收，时间久了就会造成内存的泄露
@@ -27,9 +25,9 @@ public class _09_ThreadLocal {
 
                 // 使用 threadLocal 并且使用后没有手动移除，导致内存溢出
                 threadLocal.set(new User());
-
+                //
                 // 使用完成后手动移除
-//                 threadLocal.remove();
+                // threadLocal.remove();
             });
             try {
                 Thread.sleep(100);
