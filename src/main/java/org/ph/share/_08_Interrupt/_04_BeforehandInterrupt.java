@@ -8,6 +8,9 @@ public class _04_BeforehandInterrupt {
         Thread.currentThread().interrupt();
 
         try {
+            // 如果使用静态方法 Thread.interrupted(), 则信号被消费
+            // SmallTool.printTimeAndThread("开始睡眠"+ Thread.interrupted());
+
             SmallTool.printTimeAndThread("开始睡眠");
             Thread.sleep(1000);
         } catch (InterruptedException e) {

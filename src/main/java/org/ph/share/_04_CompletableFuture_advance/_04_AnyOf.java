@@ -31,14 +31,13 @@ public class _04_AnyOf {
             return "world";
         });
 
+        // 运行任意个结束则结束
         CompletableFuture<Object> any = CompletableFuture.anyOf(f1, f2);
         SmallTool.printTimeAndThread("" + any.join());
 
-
+        // 运行所有任务结束
         CompletableFuture.allOf(f1, f2);
 
         SmallTool.printTimeAndThread(f1.join() + " -> " + f2.join());
-
-
     }
 }

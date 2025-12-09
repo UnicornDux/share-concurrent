@@ -1,4 +1,4 @@
-package org.ph.share.juc;
+package org.ph.share.juc.threads;
 
 
 import lombok.extern.slf4j.Slf4j;

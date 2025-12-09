@@ -1,6 +1,8 @@
 package org.ph.share._01_System;
 
 
+import java.lang.ref.WeakReference;
+
 /**
  * 系统中最佳的线程数的设置的计算公式
  * 
@@ -12,6 +14,10 @@ package org.ph.share._01_System;
 public class UseRuntime {
   
   public static void main(String[] args) {
+    // strong();
+    weak();
+  }
+  public static void sysInfo() {
     // java 获取当前的系统可以运行的核心数量
     // 这个方法在 java8 之前具有 bug, 无法识别
     System.out.println(Runtime.getRuntime().availableProcessors());
@@ -27,6 +33,25 @@ public class UseRuntime {
     System.out.println("Load Library....");
     Runtime.getRuntime().loadLibrary("crypt32");
     System.out.println("Library loaded.");
+  }
+
+  public static void strong() {
+    String s = new String("hello");
+    System.out.println(s);
+    // 强制开始一次内存回收
+    System.gc();
+    // 再查看对象
+    System.out.println(s);
+  }
+
+  public static void weak() {
+    WeakReference<String> weak = new WeakReference<>(new String("hello"));
+    System.out.println("执行垃圾回收之前");
+    System.out.println(weak.get());
+    // 执行垃圾回收
+    System.gc();
+    System.out.println("执行垃圾回收后");
+    System.out.println(weak.get());
   }
 }
 
